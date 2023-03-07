@@ -1,6 +1,6 @@
 package com.sparta.week6project.MapperImplTests;
 
-import com.sparta.week6project.DTO.DepartmentDTO;
+import com.sparta.week6project.dtos.DepartmentDTO;
 import com.sparta.week6project.entities.Department;
 import com.sparta.week6project.mappers.impl.DepartmentMapperImpl;
 import org.junit.jupiter.api.Assertions;

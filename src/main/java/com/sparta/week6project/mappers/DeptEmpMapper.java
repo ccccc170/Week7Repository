@@ -1,6 +1,6 @@
 package com.sparta.week6project.mappers;
 
-import com.sparta.week6project.DTO.DeptEmpDTO;
+import com.sparta.week6project.dtos.DeptEmpDTO;
 import com.sparta.week6project.entities.DeptEmp;
 
 public interface DeptEmpMapper {

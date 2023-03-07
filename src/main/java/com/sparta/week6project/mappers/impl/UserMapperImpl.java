@@ -1,6 +1,6 @@
 package com.sparta.week6project.mappers.impl;
 
-import com.sparta.week6project.DTO.UserDTO;
+import com.sparta.week6project.dtos.UserDTO;
 import com.sparta.week6project.entities.User;
 import com.sparta.week6project.mappers.UserMapper;
 import org.springframework.stereotype.Component;

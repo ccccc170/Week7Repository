@@ -1,6 +1,6 @@
 package com.sparta.week6project.mappers.impl;
 
-import com.sparta.week6project.DTO.DeptManagerDTO;
+import com.sparta.week6project.dtos.DeptManagerDTO;
 import com.sparta.week6project.entities.DeptManager;
 import com.sparta.week6project.mappers.DeptManagerMapper;
 import com.sparta.week6project.repositories.DeptManagerRepository;

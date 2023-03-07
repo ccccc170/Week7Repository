@@ -1,14 +1,8 @@
 package com.sparta.week6project.repositories;
 
-import com.sparta.week6project.DTO.DeptManagerDTO;
-import com.sparta.week6project.entities.DeptEmp;
 import com.sparta.week6project.entities.DeptManager;
 import com.sparta.week6project.entities.DeptManagerId;
 import jakarta.transaction.Transactional;
-import org.springframework.data.domain.Example;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;

@@ -1,7 +1,7 @@
 package com.sparta.week6project.controllers;
 
-import com.sparta.week6project.DAO.impl.EmployeeDAO;
-import com.sparta.week6project.DTO.EmployeeDTO;
+import com.sparta.week6project.daos.impl.EmployeeDAO;
+import com.sparta.week6project.dtos.EmployeeDTO;
 import com.sparta.week6project.entities.Employee;
 
 import org.springframework.beans.factory.annotation.Autowired;

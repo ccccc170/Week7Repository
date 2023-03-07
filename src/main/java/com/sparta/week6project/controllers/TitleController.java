@@ -1,7 +1,7 @@
 package com.sparta.week6project.controllers;
 
-import com.sparta.week6project.DAO.impl.TitleDAO;
-import com.sparta.week6project.DTO.TitleDTO;
+import com.sparta.week6project.daos.impl.TitleDAO;
+import com.sparta.week6project.dtos.TitleDTO;
 import com.sparta.week6project.entities.TitleId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

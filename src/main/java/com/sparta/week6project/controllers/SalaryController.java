@@ -1,7 +1,7 @@
 package com.sparta.week6project.controllers;
 
-import com.sparta.week6project.DAO.impl.SalaryDAO;
-import com.sparta.week6project.DTO.SalaryDTO;
+import com.sparta.week6project.daos.impl.SalaryDAO;
+import com.sparta.week6project.dtos.SalaryDTO;
 import com.sparta.week6project.entities.SalaryId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

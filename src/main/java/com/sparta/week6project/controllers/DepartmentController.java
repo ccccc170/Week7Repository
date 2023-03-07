@@ -1,7 +1,7 @@
 package com.sparta.week6project.controllers;
 
-import com.sparta.week6project.DAO.impl.DepartmentDAO;
-import com.sparta.week6project.DTO.DepartmentDTO;
+import com.sparta.week6project.daos.impl.DepartmentDAO;
+import com.sparta.week6project.dtos.DepartmentDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

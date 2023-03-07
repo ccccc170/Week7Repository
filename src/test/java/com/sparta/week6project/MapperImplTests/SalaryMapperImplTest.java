@@ -1,6 +1,6 @@
 package com.sparta.week6project.MapperImplTests;
 
-import com.sparta.week6project.DTO.SalaryDTO;
+import com.sparta.week6project.dtos.SalaryDTO;
 import com.sparta.week6project.entities.Employee;
 import com.sparta.week6project.entities.Salary;
 import com.sparta.week6project.entities.SalaryId;

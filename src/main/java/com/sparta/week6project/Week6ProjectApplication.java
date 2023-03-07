@@ -1,7 +1,5 @@
 package com.sparta.week6project;
 
-import com.sparta.week6project.DAO.impl.EmployeeDAO;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

@@ -1,6 +1,6 @@
 package com.sparta.week6project.MapperImplTests;
 
-import com.sparta.week6project.DTO.DeptManagerDTO;
+import com.sparta.week6project.dtos.DeptManagerDTO;
 import com.sparta.week6project.entities.Department;
 import com.sparta.week6project.entities.DeptManager;
 import com.sparta.week6project.entities.DeptManagerId;

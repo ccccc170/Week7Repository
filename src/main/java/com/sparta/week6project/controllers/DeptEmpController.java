@@ -1,16 +1,13 @@
 package com.sparta.week6project.controllers;
 
-import com.sparta.week6project.DAO.impl.DepartmentDAO;
-import com.sparta.week6project.DAO.impl.DeptEmpDAO;
-import com.sparta.week6project.DAO.impl.EmployeeDAO;
+import com.sparta.week6project.daos.impl.DepartmentDAO;
+import com.sparta.week6project.daos.impl.DeptEmpDAO;
 import com.sparta.week6project.repositories.DeptEmpRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDate;
-import java.util.HashMap;
 import java.util.Map;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/dept_employees")

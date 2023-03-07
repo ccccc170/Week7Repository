@@ -1,15 +1,8 @@
 package com.sparta.week6project.controllers;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.json.JsonMapper;
-import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
-import com.sparta.week6project.DAO.impl.DepartmentManagerDAO;
-import com.sparta.week6project.DTO.DeptEmpDTO;
-import com.sparta.week6project.DTO.DeptManagerDTO;
-import com.sparta.week6project.DTO.EmployeeDTO;
+import com.sparta.week6project.daos.impl.DepartmentManagerDAO;
+import com.sparta.week6project.dtos.DeptManagerDTO;
 import com.sparta.week6project.entities.DeptManagerId;
-import com.sparta.week6project.entities.Employee;
 import com.sparta.week6project.repositories.DeptManagerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

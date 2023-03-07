@@ -2,8 +2,8 @@ package com.sparta.week6project.controllers;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.sparta.week6project.DAO.impl.UserDAO;
-import com.sparta.week6project.DTO.UserDTO;
+import com.sparta.week6project.daos.impl.UserDAO;
+import com.sparta.week6project.dtos.UserDTO;
 import com.sparta.week6project.repositories.ApikeyRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
