@@ -25,7 +25,7 @@ public class DepartmentControllerTest {
         DepartmentDTO result = null;
 
         try {
-            result = mapper.readValue(new URL("http://localhost:8081/api/departments?dept_no=d009"), DepartmentDTO.class);
+            result = mapper.readValue(new URL("http://localhost:8080/api/departments?dept_no=d009"), DepartmentDTO.class);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -47,7 +47,7 @@ public class DepartmentControllerTest {
         departmentDTO.setDeptName("My New Department");
 
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create("http://localhost:8081/api/departments/"))
+                .uri(URI.create("http://localhost:8080/api/departments/"))
                 .timeout(Duration.ofMinutes(2))
                 .header("Content-Type", "application/json")
                 .POST(HttpRequest.BodyPublishers.ofString(mapper.writeValueAsString(departmentDTO)))
@@ -74,7 +74,7 @@ public class DepartmentControllerTest {
         HttpClient client = HttpClient.newHttpClient();
 
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create("http://localhost:8081/api/departments/?id=d000"))
+                .uri(URI.create("http://localhost:8080/api/departments/?id=d000"))
                 .timeout(Duration.ofMinutes(2))
                 .header("Content-Type", "application/json")
                 .DELETE().build();
@@ -100,7 +100,7 @@ public class DepartmentControllerTest {
 
 
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create("http://localhost:8081/api/departments/"))
+                .uri(URI.create("http://localhost:8080/api/departments/"))
                 .timeout(Duration.ofMinutes(2))
                 .header("Content-Type", "application/json")
                 .PUT(HttpRequest.BodyPublishers.ofString(mapper.writeValueAsString(departmentDTO)))
@@ -113,7 +113,7 @@ public class DepartmentControllerTest {
         DepartmentDTO result = null;
 
         try {
-            result = mapper.readValue(new URL("http://localhost:8081/api/departments?dept_no=d014"), DepartmentDTO.class);
+            result = mapper.readValue(new URL("http://localhost:8080/api/departments?dept_no=d014"), DepartmentDTO.class);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
